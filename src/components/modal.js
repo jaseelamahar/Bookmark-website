@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./modal.css"
 
 const Modal = ({ handleAdd, bookmark }) => {
   const [title, setTitle] = useState("");
@@ -20,8 +21,8 @@ const Modal = ({ handleAdd, bookmark }) => {
   };
 
   return (
-    <div>
-      <h2> Add bookmark </h2> 
+    <div className="modal-box">
+      <h2> Add Website </h2> 
       <div>
         <label>Website Title: </label>
         <input

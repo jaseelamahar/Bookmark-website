@@ -1,0 +1,7 @@
+.modal-box {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;  /* Black border */
+    width: 6 cm;  /* Fixed width of 5 cm */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
